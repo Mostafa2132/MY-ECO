@@ -1,7 +1,6 @@
 import "./App.css";
 import "preline/preline";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home/Home";
