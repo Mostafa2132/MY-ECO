@@ -13,7 +13,7 @@ import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 import GusetRoute from "./Components/GusetRoute/GusetRoute";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import Cart from "./Pages/Cart/Cart";
-import CartContext from "/Context/CartContext/CartContext";
+import CartContext from "./Context/CartContext/CartContext";
 import Notfound from "./Pages/Notfound/Notfound";
 import Wishlist from "./Pages/Wishlist/Wishlist";
 import WishlistContext from "./Context/WishlistContext/WishlistContext";
