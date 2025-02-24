@@ -7,7 +7,6 @@ import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Signup from "./Pages/Signup/Signup";
 import { Toaster } from "react-hot-toast";
-import UserContext from "./Context/userContext/userContext";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 import GusetRoute from "./Components/GusetRoute/GusetRoute";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
@@ -29,6 +28,7 @@ import ForgetPassword from "./Pages/ForgetPassword/ForgetPassword";
 import VerifyResetCode from "./Pages/VerifyResetCode/VerifyResetCode";
 import ResetPassword from "./Pages/ResetPassword/resetPassword";
 import UpdataInfo from "./Pages/UpdataInfo/UpdataInfo";
+import UserContext from "./Context/UserContext/UserContext";
 
 //*  ££££££££££££££££££££££££££££££££££££££££££££££  APP routing  ££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££
 let router = createBrowserRouter([
