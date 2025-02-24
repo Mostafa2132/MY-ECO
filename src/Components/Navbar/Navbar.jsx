@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.svg";
 import { useContext, useEffect, useState } from "react";
-import { userContextProvider } from "../../Context/userContext/userContext";
+import { userContextProvider } from "../../Context/UserContext/UserContext";
 import { cartContextProvider } from "../../Context/CartContext/CartContext";
 import { wishlistProvider } from "../../Context/WishlistContext/WishlistContext";
 
