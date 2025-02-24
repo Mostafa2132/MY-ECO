@@ -47,7 +47,7 @@ export default function ForgetPassword() {
           content="E-commerce, Forget Password, Forget Password page"
         />
       </Helmet>
-      <div className="mt-7 max-w-[28rem] mx-auto bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-neutral-900 dark:border-neutral-700 p-4 shadow-lg shadow-sky-900 sm:p-7 text-center">
+      <div className="mt-7 max-w-[28rem] mx-auto bg-white border border-gray-200 rounded-xl  dark:bg-neutral-900 dark:border-neutral-700 p-4 shadow-lg shadow-sky-900 sm:p-7 text-center">
         {" "}
         <img src={logo} className="w-40 mx-auto mb-5" alt="Logo" />{" "}
         <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
