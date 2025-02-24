@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { userContextProvider } from "../../Context/userContext/userContext";
+import { userContextProvider } from "../../Context/UserContext/UserContext";
 import { Navigate } from "react-router-dom";
 
 export default function GusetRoute({ children }) {
