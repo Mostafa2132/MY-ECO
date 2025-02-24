@@ -5,7 +5,7 @@ import logo from "../../assets/images/logo.svg";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
 import * as Yup from "yup";
-import { userContextProvider } from "../../Context/userContext/userContext";
+import { userContextProvider } from "../../Context/UserContext/UserContext";
 import { Helmet } from "react-helmet";
 export default function Login() {
   let { setToken } = useContext(userContextProvider),

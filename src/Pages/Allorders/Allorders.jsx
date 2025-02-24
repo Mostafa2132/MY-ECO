@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import OrdersItems from "../../Components/OrdersItems/OrdersItems";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
-import { userContextProvider } from "../../Context/userContext/userContext";
+import { userContextProvider } from "../../Context/UserContext/UserContext";
 import Loading from "../../Components/Loading/Loading";
 import { Helmet } from "react-helmet";
 

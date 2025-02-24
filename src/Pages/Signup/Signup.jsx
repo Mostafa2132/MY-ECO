@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
 import * as Yup from "yup";
-import { userContextProvider } from "../../Context/userContext/userContext";
+import { userContextProvider } from "../../Context/UserContext/UserContext";
 import logo from "../../assets/images/logo.svg";
 import { Helmet } from "react-helmet";
 export default function Signup() {

@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import toast from "react-hot-toast";
-import { userContextProvider } from "../userContext/userContext";
+import { userContextProvider } from "../UserContext/UserContext";
 import axios from "axios";
 
 export const wishlistProvider = createContext(null);

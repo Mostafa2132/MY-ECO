@@ -2,7 +2,7 @@ import logo from "../../assets/images/logo.svg";
 import axios from "axios";
 import { useFormik } from "formik";
 import { useContext, useState } from "react";
-import { userContextProvider } from "../../Context/userContext/userContext";
+import { userContextProvider } from "../../Context/UserContext/UserContext";
 import { cartContextProvider } from "../../Context/CartContext/CartContext";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
