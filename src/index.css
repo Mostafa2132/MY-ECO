@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@import "@fontsource-variable/exo-2";
+
+
+@import "react-image-gallery/styles/css/image-gallery.css";
+
+
+
+@theme {
+ --breakpoint-md: 1100px;
+}
+
+
+::selection {
+  background: #0c4a6ec9;
+  color: #fff;
+}
+
+body {
+  font-family: "Exo 2 Variable", sans-serif;
+}
+

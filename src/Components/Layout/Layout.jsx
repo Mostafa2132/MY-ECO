@@ -1,0 +1,1 @@
+import Navbar from "../Navbar/Navbar"; import { Outlet } from "react-router-dom"; import Footer from "../Footer/Footer"; export default function Layout() { return ( <> <Navbar /> <div className="max-w-screen-xl py-8 mt-12 mx-auto"> <div className="container py-8 mt-5 mx-auto"> <Outlet></Outlet> </div> </div> <Footer /> </> ); } 
