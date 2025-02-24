@@ -26,7 +26,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ForgetPassword from "./Pages/ForgetPassword/ForgetPassword";
 import VerifyResetCode from "./Pages/VerifyResetCode/VerifyResetCode";
-import ResetPassword from "./Pages/ResetPassword/resetPassword";
+import ResetPassword from "./Pages/ResetPassword/ResetPassword";
 import UpdataInfo from "./Pages/UpdataInfo/UpdataInfo";
 import UserContext from "./Context/UserContext/UserContext";
 
