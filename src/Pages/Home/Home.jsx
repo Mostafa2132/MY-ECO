@@ -56,7 +56,7 @@ export default function Home() {
         </Marquee>
       </div>
       {isLoading && <Loading />}
-      <div className="grid grid-cols-1 mt-5 md:grid-cols-4 gap-5 lg:grid-cols-6">
+      <div className="grid grid-cols-1 mt-5 sm:grid-cols-3 md:grid-cols-4 gap-5 lg:grid-cols-4 xl:grid-cols-6">
         {data?.data?.data?.map((product) => (
           <div key={product.id}>
             <Card key={product.id} productInfo={product} />

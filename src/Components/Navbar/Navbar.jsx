@@ -34,7 +34,8 @@ export default function Navbar() {
     <>
       <header className="fixed top-0 left-0 right-0 shadow-lg shadow-sky-900/30 dark:shadow-sky-900  z-50 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-sky-800 text-sm py-3 dark:bg-sky-800 ">
         <nav className="max-w-[85rem] w-full  mx-auto px-4 md:flex md:items-center md:justify-between">
-          <div className="flex items-center  justify-between">
+{/* 1 */}
+          <div className="flex items-center   justify-between">
             <Link
               className="flex-none text-xl font-bold focus:outline-none focus:opacity-80"
               to="/"
@@ -42,7 +43,7 @@ export default function Navbar() {
             >
               <img src={logo} alt="Brand Logo" />
             </Link>
-            <div className="md:hidden">
+            <div className="md:hidden ">
               <button
                 type="button"
                 className="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-w-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:hover:bg-white/10 dark:focus:bg-white/10"
@@ -88,17 +89,18 @@ export default function Navbar() {
               </button>
             </div>
           </div>
+{/* 2 */}
           <div
             id="hs-navbar-example"
-            className={` transition-all duration-500 ${
+            className={` transition-all  duration-500 ${
               isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
-            } md:max-h-full md:opacity-100 md:block`}
+            } md:max-h-full   md:opacity-100 md:block   `}
           >
             <div className="flex flex-col md:py-2 gap-4 mt-5 md:flex-row md:items-center md:mt-0 md:gap-6">
               {/* Navbar Links */}
 
               {token && (
-                <ul className="flex flex-col me-16   gap-4   max-w-min md:flex-row md:gap-6">
+                <ul className="flex flex-col me-16   gap-4   max-w-max md:flex-row md:gap-6">
                   <li>
                     <NavLink
                       className={({ isActive }) => {
@@ -182,10 +184,7 @@ export default function Navbar() {
                       to="/wishlist"
                       className="fa-regular fa-heart cursor-pointer text-2xl text-sky-500"
                     ></Link>
-                    <span
-                      className="absolute size-4 rounded-full bg-sky-950 text-white flex justify-center items-center 
-  -top-2 -right-2 sm:-top-2 sm:-right-2 md:-top-3 md:-right-3 lg:-top-3 lg:-right-3"
-                    >
+                    <span className="absolute size-4 rounded-full bg-sky-950 text-white flex justify-center items-center -top-2 -right-2 sm:-top-2 sm:-right-2 md:-top-3 md:-right-3 lg:-top-3 lg:-right-3">
                       {whiteListProducts?.count !== undefined ? (
                         whiteListProducts.count
                       ) : (
@@ -211,27 +210,12 @@ export default function Navbar() {
                       )}
                     </span>
                   </div>
-                  <li>
-                    <i className="fa-brands text-2xl cursor-pointer text-blue-500 fa-facebook"></i>
-                  </li>
-                  <li>
-                    <i className="fa-brands text-2xl cursor-pointer text-blue-500 fa-twitter"></i>
-                  </li>
-                  <li>
-                    <i className="fa-brands text-2xl cursor-pointer text-pink-500 fa-instagram"></i>
-                  </li>
-                  <li>
-                    <i className="fa-brands text-2xl cursor-pointer text-blue-500 fa-linkedin"></i>
-                  </li>
-                  <li>
-                    <i className="fa-brands text-2xl cursor-pointer text-red-600 fa-youtube"></i>
-                  </li>
+
                 </ul>
               )}
 
               {/* Dark Mode Toggle */}
-
-              <div className="flex  flex-wrap gap-4">
+            <div className="flex  flex-wrap gap-4">
                 {/* زر تفعيل الوضع الداكن */}
                 <button
                   type="button"
@@ -391,10 +375,14 @@ export default function Navbar() {
                   )}
                 </div>
               )}
+
+  
             </div>
           </div>
+
         </nav>
       </header>
     </>
   );
 }
+
